@@ -1,0 +1,380 @@
+.adder-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:4rem;
+    padding-left: 4rem;
+    padding-right:4rem;
+    flex-direction: column;
+    width: 95%;
+    position: relative;
+    text-align: center; /* Center text within the container */
+}
+
+.adder-content h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 126%;
+    letter-spacing: -2px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    
+    color: #1117A2;
+}
+
+.adder-content p {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    width: 60%;
+    text-align: center;
+    color: #414042;
+}
+
+.adder-content .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    bottom:0;
+    margin:0 auto;
+    /* overflow: hidden; */
+    height: 30vh;
+}
+
+.adder-content .img img {
+    width:100%;
+    height:30vh;
+    position:absolute;
+    bottom:0;
+}
+
+
+.one{
+    z-index: 1;
+    width:125.8%!important;
+    transform: translateX(10.7%);
+}
+
+.img_1 {
+    width: 100%;
+}
+
+.downloads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 50%;
+    text-align: center; /* Center text within the downloads container */
+}
+
+.downloads a {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content within the anchor tag */
+}
+
+
+.main-footer{
+    padding:1.4rem;
+    background: url(../../asset/dark_bg.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:60vh;
+    z-index: 1;
+    width:100%;
+    position:relative;
+    overflow: hidden;
+
+}
+
+.main-footer img{
+    width:30%;
+    position:relative;
+    margin-bottom:2rem;
+}
+
+.main-footer p {
+    color: #fff;
+    margin: 0;
+    font-size: 13px;
+    width: 90%;
+}
+
+.country_math{
+    display:flex;
+    gap:1rem;
+    justify-content:start;
+    margin-top:1rem;
+}
+
+.court_1 {
+    /* margin-top:1rem; */
+    width: 100%;;
+}
+
+.court_1 h1{
+    font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color:#fff;
+padding-bottom:10px;
+}
+
+
+.court_1 ul{
+    padding:0;
+    margin-top: 20px;
+}
+
+.court_1 ul li a{
+    font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color:#EAECF0!important;
+}
+
+.court_1 ul li span{
+    color:#fff;
+    background:#414042;
+    border-radius:2rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    padding:0px 8px;
+    letter-spacing: 0%;
+    margin-left:5px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+
+.court_2{
+   width:100%;
+   margin-top: 1rem;
+}
+.court_2 .title{
+    font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color:#fff;
+}
+
+.court_2 form{
+    margin-top: 2rem;
+    display: flex;
+    align-items:center;
+    width:100%;
+}
+
+.court_2 form input{
+    padding:.3rem 1rem;
+    border-top-left-radius:10px!important;
+    border-bottom-left-radius:10px!important;
+}
+
+.court_2 form button{
+    padding:.2rem .5rem;
+    background:blue;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-left:5px;
+    color:#fff;
+    cursor:pointer;
+}
+
+.done{
+    display: none;
+}
+
+.court_1 p{
+    font-size: 10px;
+}
+
+.linkers {
+    margin-top:3rem;
+    display:flex;
+    align-items:center;
+    justify-content:start;
+}
+
+.linkers ul{
+    padding:0;
+    display:flex;
+    flex-wrap: wrap;
+    margin-right:auto;
+    align-items:center;
+    justify-content:start;
+    gap:1rem;
+}
+
+.linkers ul li{
+    padding:0;
+  font-size: 10px;
+}
+
+.footer_nav span{
+    margin-left:10px;
+    border: 1px solid #FFFFFF4D;
+    background:#333;
+    padding:2px 5px 2px 5px;
+    border-radius:16px;
+}
+
+
+form{
+    display:flex;
+    align-items:center;
+    
+}
+
+.mid_footer{
+    gap: 1rem;
+}
+
+.mid_footer h1{
+  font-size: 1.3rem;
+  margin-top: -2.3rem;
+  color: #fff;
+}
+
+.mid_footer a:nth-child(1){
+    width:100%;
+}
+.mid_footer a:nth-child(2){
+    width: 100%;
+}
+
+.mid_footer a img{
+    width:90%;
+}
+
+.socials img{
+    margin-top: 2rem;
+    width:50%;
+}
+
+.socials a{
+    margin: 0!important;
+    padding: 0!important;
+}
+.done{
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+}
+
+
+/* .fill {
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid red;
+} */
+
+.foot p, 
+.foot ul li a{
+    font-family: Maison Neue Extended;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+letter-spacing: 0%;
+color:#98A2B3!important;
+margin: 0;
+}
+
+.foot ul {
+    margin:0;
+    display:flex;
+    gap:10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:425px){
+
+
+   
+    .adder-content{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        width: 100%;
+    }
+    .adder-content h1 {
+        font-size: 31px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .adder-content p {
+        font-size: 14px;
+        text-align: start;
+        width: 100%;
+    }
+    .downloads {
+        display: flex;
+        align-items: start;
+        width: 95%;
+        margin:1rem auto;
+    }
+    .img_1 {
+        width: 146px;
+    }
+
+
+    .adder-content .img {
+        width: 290px;
+    }
+
+    .main-footer{
+        padding:1rem;
+    }
+    .main-footer p {
+        color: #fff;
+        margin: 0;
+        width: 105%;
+        font-size: 10px!important;
+    }
+
+    .country_math{
+        margin-top: 1rem;
+    }
+
+   
+}

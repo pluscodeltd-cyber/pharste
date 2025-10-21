@@ -1,0 +1,282 @@
+.banner-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   width:95%;
+   margin:3rem auto;
+   flex-direction:column;
+}
+
+
+.banner-header{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right:auto;
+}
+.banner-header p{
+    font-family: poppins;
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #605D64!important;
+}
+
+.banner-header h1{
+    font-family: Bricolage Grotesque;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    
+color: #1117A2;
+}
+
+.banner_content{
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    padding:1rem;
+    background:#F8F8F8;
+    border-radius:40px;
+    position:relative;
+    width:100%;
+    min-height:50vh;
+    overflow:hidden;
+}
+
+.banner_content .banner_content_title{
+    font-family: poppins;
+font-weight: 600;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: -0.5px;
+vertical-align: middle;
+color:#070A45;
+}
+
+.banner_content .banner_content_paragraph{
+    font-family: poppins;
+font-weight: 500;
+text-align: start;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0px;
+color:#605D64;
+}
+
+
+
+.banner_content img{
+    width:39%;
+    position:absolute;
+    bottom:0;
+    right:0%;
+    object-fit:cover;
+}
+
+.bank_text{
+     display:flex;
+    flex-direction: column;
+    align-items:start;
+    padding:1rem;
+    background:#F8F8F8;
+    border-radius:40px;
+    position:relative;
+    width:100%!important;
+    min-height:50vh;
+    overflow:hidden;
+    margin:1.6rem auto;
+}
+.row{
+    width:100%;
+}
+
+.bank_content{
+    width:100%!important;
+}
+
+.bank_title{
+      font-family: poppins;
+font-weight: 600;
+font-size: 32px!important;
+line-height: 100%;
+letter-spacing: -0.5px;
+vertical-align: middle;
+text-transform: uppercase;
+color:#070A45;
+}
+
+
+
+
+.bank_paragraph{
+      font-family: poppins;
+font-weight: 500;
+width:39%;
+text-align: start!important;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0px;
+color:#322F35!important;
+}
+
+.bank_content .bank_text img{
+     width:25%;
+    position:absolute;
+    bottom:0;
+    right:0%;
+    object-fit:cover;
+}
+
+
+ img{
+    /* position:relative; */
+/* width:30%!important; */
+}
+ .sub{
+    position:absolute;
+    bottom:0;
+    right:15%!important;
+    width:20%!important;
+
+}
+
+ .big{
+    position:absolute;
+    bottom:0;
+    right:0%;
+    width:20%!important;
+}
+
+.down-header h1{
+    font-family: Bricolage Grotesque;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    text-align: start;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+color: #1117A2;
+}
+
+.down-header p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 20px;
+    width: 75%;
+    line-height: 35px;
+    letter-spacing: 0px;
+    
+color:#605D64;
+
+}
+
+
+.down-header{
+    margin:3rem auto;
+    width: 50%;
+}
+
+
+.writeing h1{
+    font-family: Bricolage Grotesque;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    
+color:#1117A2;
+}
+
+.writeing p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    
+color: #605D64;
+}
+
+
+.chart_img{
+    width: 100%;;
+    align-items: center;
+    justify-content:center;
+}
+
+.chart_img  img{
+    width: 100%;;
+}
+
+.mobile_content img{
+    border-radius: 2.2rem;
+}
+
+
+.down-header{
+    align-items: start;
+}
+
+.best_ways img{
+    border-radius: 1.2rem!important;
+
+}
+
+@media screen and (max-width:768px) {
+    .banner_content .banner_content_paragraph {
+        font-size: 17px;
+    }
+
+    .banner_content {
+        display: flex
+    ;
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem;
+        background: #E8F1FC;
+        border-radius: 40px;
+        position: relative;
+        width: 100%;
+        min-height: 50vh;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .banner-header {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        margin-top: 0rem; 
+         margin-left: 0rem; 
+        margin-right: auto;
+    }
+
+    .banner-header h1{
+        font-size: 30px;
+    }
+
+    .banner_content{
+        min-height:37vh;
+    }
+
+    .banner_content .banner_content_paragraph {
+        font-size: 18px;
+    }
+
+    .banner_content .banner_content_title {
+        font-size: 24px;
+    }
+}
